@@ -161,7 +161,8 @@ function App() {
         <div className="container">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="section-header">
             <h2 className="section-title">Veja o Que Você Vai Conquistar</h2>
-            <p className="section-subtitle">Crie seu próprio atelier dos sonhos e desenvolva habilidades profissionais de costura</p>
+            <p className="section-subtitle">Crie seu próprio atelier dos sonhos e desenvolva habilidades profissionais de costura! Clique nas imagens abaixo para descobrir mais sobre o que você conquistará</p>
+
           </motion.div>
           <div className="gallery-grid">
             {[
